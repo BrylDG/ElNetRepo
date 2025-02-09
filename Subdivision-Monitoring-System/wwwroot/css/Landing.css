@@ -1,0 +1,221 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: Poppins, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+    overflow-x: hidden;
+}
+
+.cont{
+    margin: 2em !important;
+    padding-left: 10em;
+    padding-right: 10em;
+    
+}
+
+.nav-link{
+    color:black;
+    font-weight: 500;
+    
+}
+.nav-link:hover{
+    color:black;
+}
+#navbarNav{
+    gap: 20px !important;
+}
+.signbtn {
+    background-color: #4D5F15 !important;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 8px;
+    color:#ffff;
+}
+.main-content {
+    display: flex;
+    width: 95%;
+    gap: 10px;
+}
+.left-land, .right-land{
+    height: auto;
+}
+.left-land{
+    width: 40%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+    margin-left: 7em;
+    flex-direction: column;
+}
+.right-land{
+    width: 60%;
+}
+.right-land img {
+    width: 120%;
+    height: auto;
+    object-fit: cover;
+    
+}
+.btns{
+    margin-right:21em;
+    gap:10px;
+  
+}
+.lrnbtn {
+    background-color: #4D5F15;
+    border: 2px solid #4D5F15;
+    color: #ffff;
+
+}
+.lrnbtn, .cntbtn {
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.cntbtn {
+    color: black;
+    border: 1px solid black;
+    margin-left: 10px;
+    background-color: #ffff;
+}
+.about {
+    margin-top: 8em;
+    display: flex;
+    padding: 50px;
+    background-color: #f9f9f9;
+    justify-content:space-around;
+}
+.aboutimg {
+    width: 40%;
+}
+
+.aboutimg img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutxt {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.topdiv {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+.botdiv {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.leftdiv, .rightdiv {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.inupleft, .inbotleft {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    height:50%;
+}
+h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+p{
+    font-size:20px;
+    padding-top: 10px;
+}
+
+.facilities{
+    margin-top: 2em;
+    width:100%;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:30px
+}
+.factop{
+    width: 50%;
+    height: 20%;
+    text-align:center;
+}
+.factop h1{
+    font-weight:bold;
+    font-size:50px;
+}
+.botfac{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap: 10px;
+
+}
+.facleft,.facmiddle, .facright{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.facmiddle{
+    align-items:center;
+    justify-content: center;
+}
+
+.facimg {
+    width: 100%;
+    height: 55%;
+}
+.factext{
+    width: 92%;
+    height: 45%;
+    text-align:justify;
+}
+.fitimg img{
+    float: right;
+    
+}
+.fitext h2{
+    margin-left: 1.5em;
+
+}
+#text {
+    margin-left: 3em;
+}
+.fitext button {
+    border: 2px solid #4D5F15;
+    margin-left: 3.6em;
+    margin-top: 1.7em;
+    padding: 10px 20px;
+    background-color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4D5F15;
+    border-radius: 8px;
+}
+.factext button {
+    border: 2px solid #4D5F15;
+    color: #4D5F15;
+    padding: 10px 20px;
+    background-color: #ffff;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 8px;
+}
