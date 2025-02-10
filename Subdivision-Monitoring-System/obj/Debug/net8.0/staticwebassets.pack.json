@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\Images\\modern-house.png"
     },
     {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\newsimg.png",
+      "PackagePath": "staticwebassets\\Images\\newsimg.png"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\sub-logo.svg",
+      "PackagePath": "staticwebassets\\Images\\sub-logo.svg"
+    },
+    {
       "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\Landing.css",
       "PackagePath": "staticwebassets\\css\\Landing.css"
     },

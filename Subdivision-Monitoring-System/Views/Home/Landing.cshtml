@@ -8,55 +8,52 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="/css/Landing.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid cont">
-            <h1 class="navbar-brand" style="font-weight:700; font-size:25px">Neighborly</h1>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-center " id="navbarNav" style="gap:20px">
-                <ul class="navbar-nav gap-5">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Facilities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NewsFeed</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
+    <div class="navigation">
+        <nav>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Facilities</a>
             </div>
-            <button class=" signbtn">SIGN IN</button>
-        </div>
-    </nav>
+
+            <div class="logo">
+                <img src="/Images/sub-logo.svg" alt="Neighborly Logo">
+            </div>
+
+            <div class="right-section">
+                <a href="#" style="font-size: 24px; color:#1E2E33">Contact Us</a>
+                <button class="signbtn" style="  font-size: 24px;">SIGN IN</button>
+            </div>
+        </nav>
+    </div>
+
 
     <div class="container-fluid main-content">
         <div class="left-land">
             <div>
-                <h1 style="font-weight:900; font-size:50px;">
+                <h1 style="font-weight:700; font-size:50px; color:#043137">
                     Strengthening Connections, Bringing Your Community
                     Closer
                 </h1>
             </div>
             <div>
-                <p style="text-align:justify">Stay connected and in control with our all-in-one subdivision portal. From announcements and payments to
+                <p style="text-align:justify; font-size: 20px; color:#787676">
+                    Stay connected and in control with our all-in-one subdivision portal. From announcements and payments to
                     facility reservations and security features, managing your home and community has never been easier.</p>
             </div>
             <div class="btns">
-               <button class="lrnbtn">Learn More</button>
-                <button class="cntbtn">Contact Us</button>
+                <button class="lrnbtn">Learn More</button>
+                <div class="phone-icon">
+                    <a href="#"><i class="fas fa-phone-alt"></i></a>
+                    <span><a href="#" style="text-decoration:none; font-size:20px; color:#1E2E33;">Contact Us</a></span>
+                </div>
             </div>
+
 
         </div>
         <div class="right-land">
@@ -65,13 +62,10 @@
     </div>
 
     <div class="container-fluid about">
-        <div class="aboutimg">
-            <img src="/Images/aboutimg.png" />
-        </div>
 
         <div class="aboutxt">
             <div class="topdiv">
-                <h2>About Neighborly</h2>
+                <h2 style="color:#043137; font-size:50px;">About Neighborly</h2>
                 <p>At Neighborly, we prioritize safety and connectivity among our residents. Founded in 2025, our community
                     has grown into a vibrant neigjhborhood where everyone can thrive and engage with one another
                 </p>
@@ -103,7 +97,7 @@
 
     <div class="facilities">
        <div class="factop">
-            <h1>Explore Our Facilities</h1>
+            <h1 style="color:#043137; font-size:50px;">Explore Our Facilities</h1>
             <p>Discover the unique features that make our subdivision a wonderful place to live. From lush parks to modern facilities, our community offers a range of 
                 amenities designed to enhance your lifestyle. Join us and experience the benefits of living in a connected and safe environment.</p>
 
@@ -157,5 +151,101 @@
 
     </div>
 
+    <div class="newsfeed">
+        <div class="newscontent">
+                
+            <div class="feedwimg">
+                
+                <div class="topfeed">
+                    <h1 style="font-weight:800; font-size:40px;">Latest News & Events</h1>
+                    <p>Discover the latest community news and upcoming events to keep you connected and involved in our vibrant neighborhood.</p>
+                </div>
+
+                <div class="botfeed">
+                    <div class="imgdiv newsimg" >
+                       <img src="./Images/newsimg.png" style="width:90%; border-radius:8px;"/>
+                    </div>
+
+                    <div class ="imgdiv textnews">
+                        <h1 style="font-weight:800; font-size:30px; margin-top: 2em;">Scheduled Maintenance</h1>
+                        <p>Water system upgrades will take place; expect temporary disruptions. Please plan accordingly and contact maintenance for concerns</p>
+                        <a href="#" style="color: #AC602A; font-size: 20px; font-weight:600;">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="feedwtext">
+                <div class="text top" >
+                    <div class="content">
+                        <h1 style="font-weight:800; font-size:30px">Meeting on March 15, 2025</h1>
+                        <p>Homeowners are invited to the monthly HOA meeting at the clubhouse at 6:00 PM to discuss upcoming projects and community concerns.</p>
+                    </div>
+                </div>
+                <div class="text top" >
+                    <div class="content">
+                        <h1 style="font-weight:800; font-size:30px;">Meeting on March 15, 2025</h1>
+                        <p>Homeowners are invited to the monthly HOA meeting at the clubhouse at 6:00 PM to discuss upcoming projects and community concerns.</p>
+                    </div>
+                </div>
+                <div class="text top">
+                    <div class="content">
+                        <h1 style="font-weight:800; font-size:30px;">Meeting on March 15, 2025</h1>
+                        <p>Homeowners are invited to the monthly HOA meeting at the clubhouse at 6:00 PM to discuss upcoming projects and community concerns.</p>
+                    </div>
+                </div>
+           </div>
+      </div>
+    </div>
+
+    <div class="partition">
+        <div class="contactinfo">
+            <h1>Contact Information</h1>
+            <p>Reach out to our dedicated teams for any inquiries or assistance.</p>
+
+            <div class="contact-dets">
+                <p><i class="fas fa-envelope"></i> Neighborly@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +63995684154</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Cebu City, 6000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5717.309075708949!2d123.92468597908078!3d10.346282200897026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a998f5d0573d5b%3A0x45e96bb5678e2682!2s697%20M.%20L.%20Quezon%20Ave%2C%20Mandaue%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1739159535814!5m2!1sen!2sph" width="1569" height="872" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="lastpart">
+        <div class="midfoot">
+            <div class="footer-logo">
+                <img src="./Images/sub-logo.svg" alt="Neighborly Logo" class="logo-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="community-links">
+                <h3>Community</h3>
+                <p>About Us</p>
+                <p>Facilities</p>
+                <p>NewsFeed</p>
+            </div>
+
+            <div class="contact-details">
+                <h3>Contacts Us</h3>
+                <p><i class="fas fa-envelope"></i> Neighborly@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +63995684154</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Cebu City, 6000</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2022 BRIX Templates</p>
+            <p>All Rights Reserved | <a href="#">Terms and Conditions</a>  | <a href="#">Privacy Policy</a> </p>
+        </div>
+    </div>
 </body>
 </html>

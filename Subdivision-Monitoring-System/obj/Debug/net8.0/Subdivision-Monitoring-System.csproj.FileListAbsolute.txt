@@ -32,3 +32,4 @@ C:\Users\vhinc\source\repos\Subdivision-Monitoring-System\Subdivision-Monitoring
 C:\Users\vhinc\source\repos\Subdivision-Monitoring-System\Subdivision-Monitoring-System\obj\Debug\net8.0\Subdivision-Monitoring-System.pdb
 C:\Users\vhinc\source\repos\Subdivision-Monitoring-System\Subdivision-Monitoring-System\obj\Debug\net8.0\Subdivision-Monitoring-System.genruntimeconfig.cache
 C:\Users\vhinc\source\repos\Subdivision-Monitoring-System\Subdivision-Monitoring-System\obj\Debug\net8.0\ref\Subdivision-Monitoring-System.dll
+C:\Users\vhinc\source\repos\Subdivision-Monitoring-System\Subdivision-Monitoring-System\obj\Debug\net8.0\Subdivision-Monitoring-System.sourcelink.json
