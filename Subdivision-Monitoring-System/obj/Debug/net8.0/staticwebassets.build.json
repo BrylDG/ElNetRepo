@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O+gAIJt2K3KSdw6qb5Qfz6Og6iA9a6fdePtMCYCG9Os=",
+  "Hash": "iXtxAkokiPMjbeTn7jzEjtTq0Bzyo1HnsM1gaj+tYhM=",
   "Source": "Subdivision-Monitoring-System",
   "BasePath": "_content/Subdivision-Monitoring-System",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Subdivision-Monitoring-System.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\input.css",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "css/input#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ylk6gomfr8",
+      "Integrity": "1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\input.css"
+    },
+    {
       "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\Landing.css",
       "SourceId": "Subdivision-Monitoring-System",
       "SourceType": "Discovered",
@@ -73,11 +94,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bg72g8vfir",
-      "Integrity": "xY0Ivy9Ypf+wyGVek7mvJjhBCOH9WKfwuVDk9FmHIkM=",
+      "Fingerprint": "3c8z0re5on",
+      "Integrity": "84CG2dwPYs4sIkRE3uw5GgpC4VR4h+lM7lUuuK9X2ms=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Landing.css"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\output.css",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "css/output#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ylk6gomfr8",
+      "Integrity": "1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\output.css"
     },
     {
       "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\site.css",
@@ -143,6 +185,132 @@
       "OriginalItemSpec": "wwwroot\\Images\\aboutimg.png"
     },
     {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\act.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/act#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5nihy15bv",
+      "Integrity": "RPFnpLKocZncRur2ooNqqurmKTZxxNVUbAEWIFhP2Wk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\act.svg"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\admin.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/admin#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3nqw9fykrf",
+      "Integrity": "IUyeb4eCRUHx5hDXq+shRvlaATb5LOagF5R0/Ked/zY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\admin.svg"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\billing 5.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/billing 5#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "os6oz01rzm",
+      "Integrity": "mPQyefwguSPir/X3vSnGJB3JZjHyJk0dUumLyrnm5/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\billing 5.svg"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\cover.png",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/cover#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "744d14gnfu",
+      "Integrity": "F0c9cwUxpDpDMRptwSDKmT5/c8iqs7S7ijtFwH7+U/Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\cover.png"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\customer-service 1.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/customer-service 1#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "33cbu4t3lr",
+      "Integrity": "EfA7FtAHTPHEvwP5H8wJFvlw3wP9HTIO3Qvi7dZsYwk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\customer-service 1.svg"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\document 1.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/document 1#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "egedmi1jb9",
+      "Integrity": "brg51VdzzkQVgmy32izpQPLpiP9cSVxg6TwkgBrtkys=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\document 1.svg"
+    },
+    {
       "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\facimg1.png",
       "SourceId": "Subdivision-Monitoring-System",
       "SourceType": "Discovered",
@@ -206,6 +374,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\facimg3.png"
     },
     {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\home 1.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/home 1#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rxs49fjlks",
+      "Integrity": "fyAHOCzCv3ooEc7aQsCx/dHnz+hfWq1jnwrkUvkkjO0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\home 1.svg"
+    },
+    {
       "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\modern-house.png",
       "SourceId": "Subdivision-Monitoring-System",
       "SourceType": "Discovered",
@@ -248,6 +437,69 @@
       "OriginalItemSpec": "wwwroot\\Images\\newsimg.png"
     },
     {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\notfif-bell.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/notfif-bell#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gzhvd2vqq0",
+      "Integrity": "zFHYKf4TxZ4KqdIZxS8xv6SLxk4XvUIBSPX5UqErnIc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\notfif-bell.svg"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\pfp.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/pfp#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifvaxhxui9",
+      "Integrity": "Yg2TSktxGr7SNC2/9G9nTrCmA1Jgw2WF7LADfFCQQYE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\pfp.svg"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\pho.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/pho#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4wvpgz8xqq",
+      "Integrity": "TFZuwcNKz5CsL+34A+8NpA1iVPkqUzf2zv/F3VOUYG8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\pho.svg"
+    },
+    {
       "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\sub-logo.svg",
       "SourceId": "Subdivision-Monitoring-System",
       "SourceType": "Discovered",
@@ -267,6 +519,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\sub-logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\Tree.png",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/Tree#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rv8gp05zza",
+      "Integrity": "CaY66FkJPo6VsBxusQQJtaCOSH4u0PbwbhzV5kLg3LA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Tree.png"
+    },
+    {
+      "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\vid.svg",
+      "SourceId": "Subdivision-Monitoring-System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\",
+      "BasePath": "_content/Subdivision-Monitoring-System",
+      "RelativePath": "Images/vid#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "56pmub6qll",
+      "Integrity": "7fK7qlf258E7oC/s4emHR+XTrsKfjpO0khNxSAhHzgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\vid.svg"
     },
     {
       "Identity": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\js\\site.js",
@@ -1489,8 +1783,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/Landing.bg72g8vfir.css",
-      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\Landing.css",
+      "Route": "css/input.css",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\input.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1499,7 +1793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8986"
+          "Value": "13"
         },
         {
           "Name": "Content-Type",
@@ -1507,11 +1801,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xY0Ivy9Ypf+wyGVek7mvJjhBCOH9WKfwuVDk9FmHIkM=\""
+          "Value": "\"1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 13:29:13 GMT"
+          "Value": "Sat, 22 Feb 2025 12:44:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/input.ylk6gomfr8.css",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\input.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 12:44:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1521,7 +1852,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bg72g8vfir"
+          "Value": "ylk6gomfr8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/input.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Landing.3c8z0re5on.css",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\Landing.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84CG2dwPYs4sIkRE3uw5GgpC4VR4h+lM7lUuuK9X2ms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 12:33:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3c8z0re5on"
         },
         {
           "Name": "label",
@@ -1529,7 +1905,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xY0Ivy9Ypf+wyGVek7mvJjhBCOH9WKfwuVDk9FmHIkM="
+          "Value": "sha256-84CG2dwPYs4sIkRE3uw5GgpC4VR4h+lM7lUuuK9X2ms="
         }
       ]
     },
@@ -1544,7 +1920,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8986"
+          "Value": "200"
         },
         {
           "Name": "Content-Type",
@@ -1552,11 +1928,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xY0Ivy9Ypf+wyGVek7mvJjhBCOH9WKfwuVDk9FmHIkM=\""
+          "Value": "\"84CG2dwPYs4sIkRE3uw5GgpC4VR4h+lM7lUuuK9X2ms=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 13:29:13 GMT"
+          "Value": "Sun, 23 Feb 2025 12:33:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1566,7 +1942,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xY0Ivy9Ypf+wyGVek7mvJjhBCOH9WKfwuVDk9FmHIkM="
+          "Value": "sha256-84CG2dwPYs4sIkRE3uw5GgpC4VR4h+lM7lUuuK9X2ms="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.css",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\output.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 12:45:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.ylk6gomfr8.css",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\output.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 12:45:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ylk6gomfr8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/output.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1j16TuWtLYQnyKCJTx69yW5EfGU+ZYTwGLAykYXT4iQ="
         }
       ]
     },
@@ -1817,6 +2275,498 @@
       ]
     },
     {
+      "Route": "Images/act.o5nihy15bv.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\act.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPFnpLKocZncRur2ooNqqurmKTZxxNVUbAEWIFhP2Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 15:33:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5nihy15bv"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/act.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPFnpLKocZncRur2ooNqqurmKTZxxNVUbAEWIFhP2Wk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/act.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\act.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPFnpLKocZncRur2ooNqqurmKTZxxNVUbAEWIFhP2Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 15:33:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPFnpLKocZncRur2ooNqqurmKTZxxNVUbAEWIFhP2Wk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/admin.3nqw9fykrf.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\admin.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IUyeb4eCRUHx5hDXq+shRvlaATb5LOagF5R0/Ked/zY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 15:58:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3nqw9fykrf"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/admin.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IUyeb4eCRUHx5hDXq+shRvlaATb5LOagF5R0/Ked/zY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/admin.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\admin.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IUyeb4eCRUHx5hDXq+shRvlaATb5LOagF5R0/Ked/zY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 15:58:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IUyeb4eCRUHx5hDXq+shRvlaATb5LOagF5R0/Ked/zY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/billing 5.os6oz01rzm.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\billing 5.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPQyefwguSPir/X3vSnGJB3JZjHyJk0dUumLyrnm5/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "os6oz01rzm"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/billing 5.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPQyefwguSPir/X3vSnGJB3JZjHyJk0dUumLyrnm5/k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/billing 5.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\billing 5.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPQyefwguSPir/X3vSnGJB3JZjHyJk0dUumLyrnm5/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPQyefwguSPir/X3vSnGJB3JZjHyJk0dUumLyrnm5/k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/cover.744d14gnfu.png",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\cover.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0c9cwUxpDpDMRptwSDKmT5/c8iqs7S7ijtFwH7+U/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 05:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "744d14gnfu"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/cover.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0c9cwUxpDpDMRptwSDKmT5/c8iqs7S7ijtFwH7+U/Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/cover.png",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\cover.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0c9cwUxpDpDMRptwSDKmT5/c8iqs7S7ijtFwH7+U/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 05:57:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0c9cwUxpDpDMRptwSDKmT5/c8iqs7S7ijtFwH7+U/Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/customer-service 1.33cbu4t3lr.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\customer-service 1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "196185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EfA7FtAHTPHEvwP5H8wJFvlw3wP9HTIO3Qvi7dZsYwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:57:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33cbu4t3lr"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/customer-service 1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EfA7FtAHTPHEvwP5H8wJFvlw3wP9HTIO3Qvi7dZsYwk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/customer-service 1.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\customer-service 1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "196185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EfA7FtAHTPHEvwP5H8wJFvlw3wP9HTIO3Qvi7dZsYwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:57:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EfA7FtAHTPHEvwP5H8wJFvlw3wP9HTIO3Qvi7dZsYwk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/document 1.egedmi1jb9.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\document 1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"brg51VdzzkQVgmy32izpQPLpiP9cSVxg6TwkgBrtkys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:57:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "egedmi1jb9"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/document 1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-brg51VdzzkQVgmy32izpQPLpiP9cSVxg6TwkgBrtkys="
+        }
+      ]
+    },
+    {
+      "Route": "Images/document 1.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\document 1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"brg51VdzzkQVgmy32izpQPLpiP9cSVxg6TwkgBrtkys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:57:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-brg51VdzzkQVgmy32izpQPLpiP9cSVxg6TwkgBrtkys="
+        }
+      ]
+    },
+    {
       "Route": "Images/facimg1.png",
       "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\facimg1.png",
       "Selectors": [],
@@ -2063,6 +3013,88 @@
       ]
     },
     {
+      "Route": "Images/home 1.rxs49fjlks.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\home 1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fyAHOCzCv3ooEc7aQsCx/dHnz+hfWq1jnwrkUvkkjO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rxs49fjlks"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/home 1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fyAHOCzCv3ooEc7aQsCx/dHnz+hfWq1jnwrkUvkkjO0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/home 1.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\home 1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fyAHOCzCv3ooEc7aQsCx/dHnz+hfWq1jnwrkUvkkjO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fyAHOCzCv3ooEc7aQsCx/dHnz+hfWq1jnwrkUvkkjO0="
+        }
+      ]
+    },
+    {
       "Route": "Images/modern-house.png",
       "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\modern-house.png",
       "Selectors": [],
@@ -2227,6 +3259,252 @@
       ]
     },
     {
+      "Route": "Images/notfif-bell.gzhvd2vqq0.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\notfif-bell.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zFHYKf4TxZ4KqdIZxS8xv6SLxk4XvUIBSPX5UqErnIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gzhvd2vqq0"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/notfif-bell.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zFHYKf4TxZ4KqdIZxS8xv6SLxk4XvUIBSPX5UqErnIc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/notfif-bell.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\notfif-bell.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zFHYKf4TxZ4KqdIZxS8xv6SLxk4XvUIBSPX5UqErnIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zFHYKf4TxZ4KqdIZxS8xv6SLxk4XvUIBSPX5UqErnIc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pfp.ifvaxhxui9.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\pfp.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22362847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yg2TSktxGr7SNC2/9G9nTrCmA1Jgw2WF7LADfFCQQYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:48:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifvaxhxui9"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pfp.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yg2TSktxGr7SNC2/9G9nTrCmA1Jgw2WF7LADfFCQQYE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pfp.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\pfp.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22362847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yg2TSktxGr7SNC2/9G9nTrCmA1Jgw2WF7LADfFCQQYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 13:48:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yg2TSktxGr7SNC2/9G9nTrCmA1Jgw2WF7LADfFCQQYE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pho.4wvpgz8xqq.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\pho.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TFZuwcNKz5CsL+34A+8NpA1iVPkqUzf2zv/F3VOUYG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 15:33:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4wvpgz8xqq"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pho.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TFZuwcNKz5CsL+34A+8NpA1iVPkqUzf2zv/F3VOUYG8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pho.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\pho.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TFZuwcNKz5CsL+34A+8NpA1iVPkqUzf2zv/F3VOUYG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 15:33:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TFZuwcNKz5CsL+34A+8NpA1iVPkqUzf2zv/F3VOUYG8="
+        }
+      ]
+    },
+    {
       "Route": "Images/sub-logo.f93lc15ha3.svg",
       "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\sub-logo.svg",
       "Selectors": [],
@@ -2305,6 +3583,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-w8OAndQdcVMWUCezJHlUgVkaEPXAlEJpbaeGUFK9Upc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Tree.png",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\Tree.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "815861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CaY66FkJPo6VsBxusQQJtaCOSH4u0PbwbhzV5kLg3LA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 16:09:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CaY66FkJPo6VsBxusQQJtaCOSH4u0PbwbhzV5kLg3LA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Tree.rv8gp05zza.png",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\Tree.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "815861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CaY66FkJPo6VsBxusQQJtaCOSH4u0PbwbhzV5kLg3LA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 16:09:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rv8gp05zza"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Tree.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CaY66FkJPo6VsBxusQQJtaCOSH4u0PbwbhzV5kLg3LA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/vid.56pmub6qll.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\vid.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fK7qlf258E7oC/s4emHR+XTrsKfjpO0khNxSAhHzgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 15:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "56pmub6qll"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/vid.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fK7qlf258E7oC/s4emHR+XTrsKfjpO0khNxSAhHzgk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/vid.svg",
+      "AssetFile": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\vid.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fK7qlf258E7oC/s4emHR+XTrsKfjpO0khNxSAhHzgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 15:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fK7qlf258E7oC/s4emHR+XTrsKfjpO0khNxSAhHzgk="
         }
       ]
     },

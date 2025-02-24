@@ -5,8 +5,36 @@
       "PackagePath": "staticwebassets\\Subdivision-Monitoring-System.h2szngc0um.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\Tree.png",
+      "PackagePath": "staticwebassets\\Images\\Tree.png"
+    },
+    {
       "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\aboutimg.png",
       "PackagePath": "staticwebassets\\Images\\aboutimg.png"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\act.svg",
+      "PackagePath": "staticwebassets\\Images\\act.svg"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\admin.svg",
+      "PackagePath": "staticwebassets\\Images\\admin.svg"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\billing 5.svg",
+      "PackagePath": "staticwebassets\\Images\\billing 5.svg"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\cover.png",
+      "PackagePath": "staticwebassets\\Images\\cover.png"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\customer-service 1.svg",
+      "PackagePath": "staticwebassets\\Images\\customer-service 1.svg"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\document 1.svg",
+      "PackagePath": "staticwebassets\\Images\\document 1.svg"
     },
     {
       "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\facimg1.png",
@@ -21,6 +49,10 @@
       "PackagePath": "staticwebassets\\Images\\facimg3.png"
     },
     {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\home 1.svg",
+      "PackagePath": "staticwebassets\\Images\\home 1.svg"
+    },
+    {
       "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\modern-house.png",
       "PackagePath": "staticwebassets\\Images\\modern-house.png"
     },
@@ -29,12 +61,36 @@
       "PackagePath": "staticwebassets\\Images\\newsimg.png"
     },
     {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\notfif-bell.svg",
+      "PackagePath": "staticwebassets\\Images\\notfif-bell.svg"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\pfp.svg",
+      "PackagePath": "staticwebassets\\Images\\pfp.svg"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\pho.svg",
+      "PackagePath": "staticwebassets\\Images\\pho.svg"
+    },
+    {
       "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\sub-logo.svg",
       "PackagePath": "staticwebassets\\Images\\sub-logo.svg"
     },
     {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\Images\\vid.svg",
+      "PackagePath": "staticwebassets\\Images\\vid.svg"
+    },
+    {
       "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\Landing.css",
       "PackagePath": "staticwebassets\\css\\Landing.css"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\input.css",
+      "PackagePath": "staticwebassets\\css\\input.css"
+    },
+    {
+      "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
     },
     {
       "Id": "C:\\Users\\vhinc\\source\\repos\\Subdivision-Monitoring-System\\Subdivision-Monitoring-System\\wwwroot\\css\\site.css",

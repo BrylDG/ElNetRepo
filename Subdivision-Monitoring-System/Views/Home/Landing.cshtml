@@ -3,249 +3,382 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subdivision Management System</title>
-
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="/css/Landing.css" />
+    <title>Subdivision Monitoring System</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
 
+        * {
+            font-family: 'Poppins', Helvetica, sans-serif;
+        }
+
+        .phone-icon {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+            .phone-icon i {
+                background-color: #003333;
+                color: white;
+                font-size: 18px;
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+            }
+
+            .phone-icon span {
+                font-size: 16px;
+                color: #003333;
+            }
+
+        a {
+            cursor: pointer;
+        }
+    </style>
 </head>
-<body>
-    <div class="navigation">
-        <nav>
-            <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Facilities</a>
+<body class="bg-gray-100 flex flex-col items-center justify-center overflow-x-hidden">
+
+    <!-- Navbar -->
+    <header id="navigation" class="w-full flex items-center justify-center sticky top-0 z-50 bg-white shadow-md">
+        <div class="w-11/12 flex justify-between p-6 relative text-[#1E2E33] ">
+            <!-- Desktop Links -->
+            <div class="hidden md:flex flex-row gap-8 items-center text-[24px]">
+                <a class="hover:text-[#787676] cursor-pointer" href="#home">Home</a>
+                <a class="hover:text-[#787676]" href="#about">About Us</a>
+                <a class="hover:text-[#787676]" href="#Facilities">Facilities</a>
+
             </div>
 
-            <div class="logo">
-                <img src="/Images/sub-logo.svg" alt="Neighborly Logo">
-            </div>
-
-            <div class="right-section">
-                <a href="#" style="font-size: 24px; color:#1E2E33">Contact Us</a>
-                <button class="signbtn" style="  font-size: 24px;">SIGN IN</button>
-            </div>
-        </nav>
-    </div>
-
-
-    <div class="container-fluid main-content">
-        <div class="left-land">
+            <!-- Logo -->
             <div>
-                <h1 style="font-weight:700; font-size:50px; color:#043137">
-                    Strengthening Connections, Bringing Your Community
-                    Closer
-                </h1>
+                <img class="h-10" src="./Images/sub-logo.svg" alt="Logo">
             </div>
-            <div>
-                <p style="text-align:justify; font-size: 20px; color:#787676">
-                    Stay connected and in control with our all-in-one subdivision portal. From announcements and payments to
-                    facility reservations and security features, managing your home and community has never been easier.</p>
+
+            <!-- Desktop Links & Sign In -->
+            <div class="hidden md:flex flex-row gap-8 items-center ">
+                <a class="hover:text-[#787676] text-[24px]" href="#events-section">NewsFeed</a>
+                <a id="signin-btn" href="#" class="bg-[#FFFF] px-7 py-2 rounded-full border-2 border-[#AC602A] text-[#AC602A]">
+                    Sign In
+                </a>
             </div>
-            <div class="btns">
-                <button class="lrnbtn">Learn More</button>
-                <div class="phone-icon">
-                    <a href="#"><i class="fas fa-phone-alt"></i></a>
-                    <span><a href="#" style="text-decoration:none; font-size:20px; color:#1E2E33;">Contact Us</a></span>
+
+            <!-- Hamburger Menu (Mobile) -->
+            <button id="menu-btn" class="md:hidden text-[#043137] text-2xl">&#9776;</button>
+
+            <!-- Mobile Menu (Hidden by Default) -->
+            <div id="menu" class="absolute top-full left-0 w-full bg-[#AC602A]  text-white flex-col items-center gap-4 p-4 hidden md:hidden">
+                <a href="#home" class="block">Home</a>
+                <a href="#about" class="block">About Us</a>
+                <a href="#Facilities" class="block">Facilities</a>
+                <a href="#events-section" class="block">NewsFeed</a>
+                <a id="sign-in-btn" href="#" class="block">Sign In</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- JavaScript to Toggle Menu -->
+    <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            const menuBtn = document.getElementById("menu-btn");
+            const menu = document.getElementById("menu");
+
+            menuBtn.addEventListener("click", function (event) {
+                event.stopPropagation(); // Prevents click from bubbling up
+                menu.classList.toggle("hidden");
+            });
+
+            document.addEventListener("click", function (event) {
+                if (!menu.contains(event.target) && event.target !== menuBtn) {
+                    menu.classList.add("hidden");
+                }
+            });
+        });
+
+    </script>
+
+    <!-- Main Section -->
+    <section id="home" class="flex flex-col h-screen md:flex-row w-11/12 items-center justify-center md:h-screen sm:items-center  md:h-screen  sm:h-screen gap-9 ">
+        <div class="flex flex-col justify-center w-11/12  md:h-screen sm:items-center sm:justify-center gap-3 ">
+            <h1 class="text-5xl md:text-5xl lg:text-7xl font-bold text-[#043137]">
+                Strengthening Connections, Bringing Your Community Closer
+            </h1>
+
+            <p class="mt-4 text-[22px] text-[#787676]">
+                Stay connected and in control with our all-in-one subdivision portal. From announcements and payments to
+                facility reservations and security features, managing your home and community has never been easier.
+            </p>
+
+            <div class="flex justify-start w-full">
+                <div class="mt-6 flex gap-4">
+                    <a href="#" class="flex justify-center items-center text-white md:text-[24px] px-5 py-1.5 rounded-full bg-[#AC602A] text-center   sm:px-2 sm:py-1 md:px-6 md:py-2 sm:text-[12px] transition">
+                        Learn More
+                    </a>
+                    <div class="phone-icon">
+                        <a href="#contactinfo"><i class="fas fa-phone-alt"></i></a>
+                        <a href="#contact-location" class=" text-[#1E2E33] px-4 py-2 rounded-full  md:text-[24px] transition">
+                            Contact Us
+                        </a>
+                    </div>
                 </div>
             </div>
 
 
         </div>
-        <div class="right-land">
-            <img src="/Images/modern-house.png" />
-        </div>
-    </div>
 
-    <div class="container-fluid about">
-
-        <div class="aboutxt">
-            <div class="topdiv">
-                <h2 style="color:#043137; font-size:50px;">About Neighborly</h2>
-                <p>At Neighborly, we prioritize safety and connectivity among our residents. Founded in 2025, our community
-                    has grown into a vibrant neigjhborhood where everyone can thrive and engage with one another
-                </p>
-            </div>
-            <div class="botdiv">
-                <div class="leftdiv">
-                    <div class="inupleft">
-                        <h2>15 families</h2>
-                        <p>With the 15 families, we have fostered a strong sense of community and collaboration</p>
+        <div id="login-popup" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 p-4">
+            <div class="bg-white p-6 sm:p-8 rounded-lg shadow-lg w-full max-w-sm relative">
+                <button class="absolute top-3 right-3 text-xl text-gray-500 hover:text-gray-700 close">&times;</button>
+                <h2 class="text-2xl font-bold text-[#043137] text-center">WELCOME!</h2>
+                <p class="text-gray-600 text-center mt-1">LOGIN</p>
+                <label class="block mt-4 text-gray-700 ">Username</label>
+                <input type="text" class="w-full px-4 py-2 border rounded-full mt-1" placeholder="Enter your username">
+                <label class="block mt-3 text-gray-700">Password</label>
+                <input type="password" class="w-full px-4 py-2 border rounded-full mt-1" placeholder="********">
+                <div class="flex justify-between items-center mt-3 text-sm">
+                    <div class="flex items-center">
+                        <input type="checkbox" id="remember" class="mr-1">
+                        <label for="remember">Remember me</label>
                     </div>
-                    <div class="inbotleft">
-                        <h2>5 core values</h2>
-                        <p>Our core values include Safety, Connectivity, Community engagement, Transparency and Sustainability.</p>
-                    </div>
-                </div>  
-                <div class="rightdiv">
-                    <div class="inupleft">
-                        <h2>4 team members</h2>
-                        <p>Our dedicated team includes professionals, from the HOA, security, and maintenance, all committed to enhancing your living experience</p>
-                    </div>
-                    <div class="inbotleft">
-                        <h2>15 initiatives</h2>
-                        <p>Over the years we have imp0lemented numerous initiatives to improve the quality of life for our residents.</p>
-                    </div>
+                    <a href="#" class="text-[#AC602A]">Forgot password</a>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="facilities">
-       <div class="factop">
-            <h1 style="color:#043137; font-size:50px;">Explore Our Facilities</h1>
-            <p>Discover the unique features that make our subdivision a wonderful place to live. From lush parks to modern facilities, our community offers a range of 
-                amenities designed to enhance your lifestyle. Join us and experience the benefits of living in a connected and safe environment.</p>
-
-       </div>
-
-       <div class="botfac">
-            <div class="facleft">
-                <div class="facimage">
-                    <img src="./Images/facimg1.png" alt="Community Park" />
-                </div>
-                <div class="factext">
-                    <h2>Community Park</h2>
-                    <p>Our community park offers a serene environment with walking trails, playgrounds, and picnic areas. It’s the perfect place for families to enjoy
-                        outdoor activities and connect with nature.</p>
-
-                    <button class="morebtn">Learn More</button>
-                </div>
-
-           </div>
-            
-            <div class="facmiddle">
-                <div class="facimage">
-                    <img src="./Images/facimg2.png" alt="Clubhouse" />
-                </div>
-                <div class="factext">
-                    <h2>Clubhouse</h2>
-                    <p>
-                        The clubhouse is the heart of our community, hosting social events and gatherings. It's a place where residents come together to celebrate and
-                        build lasting friendships.
-                    </p>
-
-                    <button class="morebtn">Learn More</button>
-                </div>
-            </div>
-
-            <div class="facright">
-                <div class="fitimg">
-                    <img src="./Images/facimg3.png" alt="Fitness Center" />
-                </div>
-                <div class="fitext">
-                    <h2>Fitness Center</h2>
-                    <p id="text">
-                        Our state-of-the-art fitness center is equipped with modern facilities to support your health and wellness goals. Stay fit and healthy with us..
-                    </p>
-
-                    <button class="morebtn">Learn More</button>
-                </div>
-            </div>
-
-       </div>
-
-    </div>
-
-    <div class="newsfeed">
-        <div class="newscontent">
-                
-            <div class="feedwimg">
-                
-                <div class="topfeed">
-                    <h1 style="font-weight:800; font-size:40px;">Latest News & Events</h1>
-                    <p>Discover the latest community news and upcoming events to keep you connected and involved in our vibrant neighborhood.</p>
-                </div>
-
-                <div class="botfeed">
-                    <div class="imgdiv newsimg" >
-                       <img src="./Images/newsimg.png" style="width:90%; border-radius:8px;"/>
-                    </div>
-
-                    <div class ="imgdiv textnews">
-                        <h1 style="font-weight:800; font-size:30px; margin-top: 2em;">Scheduled Maintenance</h1>
-                        <p>Water system upgrades will take place; expect temporary disruptions. Please plan accordingly and contact maintenance for concerns</p>
-                        <a href="#" style="color: #AC602A; font-size: 20px; font-weight:600;">Read More</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="feedwtext">
-                <div class="text top" >
-                    <div class="content">
-                        <h1 style="font-weight:800; font-size:30px">Meeting on March 15, 2025</h1>
-                        <p>Homeowners are invited to the monthly HOA meeting at the clubhouse at 6:00 PM to discuss upcoming projects and community concerns.</p>
-                    </div>
-                </div>
-                <div class="text top" >
-                    <div class="content">
-                        <h1 style="font-weight:800; font-size:30px;">Meeting on March 15, 2025</h1>
-                        <p>Homeowners are invited to the monthly HOA meeting at the clubhouse at 6:00 PM to discuss upcoming projects and community concerns.</p>
-                    </div>
-                </div>
-                <div class="text top">
-                    <div class="content">
-                        <h1 style="font-weight:800; font-size:30px;">Meeting on March 15, 2025</h1>
-                        <p>Homeowners are invited to the monthly HOA meeting at the clubhouse at 6:00 PM to discuss upcoming projects and community concerns.</p>
-                    </div>
-                </div>
-           </div>
-      </div>
-    </div>
-
-    <div class="partition">
-        <div class="contactinfo">
-            <h1>Contact Information</h1>
-            <p>Reach out to our dedicated teams for any inquiries or assistance.</p>
-
-            <div class="contact-dets">
-                <p><i class="fas fa-envelope"></i> Neighborly@gmail.com</p>
-                <p><i class="fas fa-phone"></i> +63995684154</p>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Cebu City, 6000</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5717.309075708949!2d123.92468597908078!3d10.346282200897026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a998f5d0573d5b%3A0x45e96bb5678e2682!2s697%20M.%20L.%20Quezon%20Ave%2C%20Mandaue%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1739159535814!5m2!1sen!2sph" width="1569" height="872" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <div class="lastpart">
-        <div class="midfoot">
-            <div class="footer-logo">
-                <img src="./Images/sub-logo.svg" alt="Neighborly Logo" class="logo-image">
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
-                <div class="social-icons">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                </div>
-            </div>
-
-            <div class="community-links">
-                <h3>Community</h3>
-                <p>About Us</p>
-                <p>Facilities</p>
-                <p>NewsFeed</p>
-            </div>
-
-            <div class="contact-details">
-                <h3>Contacts Us</h3>
-                <p><i class="fas fa-envelope"></i> Neighborly@gmail.com</p>
-                <p><i class="fas fa-phone"></i> +63995684154</p>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Cebu City, 6000</p>
+                <button class="w-full bg-[#043137] text-white py-2 rounded-full mt-5 text-lg">Log In</button>
             </div>
         </div>
 
-        <div class="footer-bottom">
-            <p>Copyright © 2022 BRIX Templates</p>
-            <p>All Rights Reserved | <a href="#">Terms and Conditions</a>  | <a href="#">Privacy Policy</a> </p>
+
+        <script>
+
+            document.addEventListener("DOMContentLoaded", function () {
+                const mbsigninBtn = document.getElementById("sign-in-btn"); // Mobile menu Sign In
+                const signinBtn = document.getElementById("signin-btn"); // Other Sign In
+                const popup = document.getElementById("login-popup");
+                const closeBtn = document.querySelector(".close");
+
+                function openPopup() {
+                    popup.classList.remove("hidden");
+                }
+
+                if (signinBtn) signinBtn.addEventListener("click", openPopup);
+                if (mbsigninBtn) mbsigninBtn.addEventListener("click", openPopup);
+
+                closeBtn.addEventListener("click", function () {
+                    popup.classList.add("hidden");
+                });
+
+                window.addEventListener("click", function (e) {
+                    if (e.target === popup) {
+                        popup.classList.add("hidden");
+                    }
+                });
+            });
+
+        </script>
+
+        <div class="w-full relative md:h-screen p-6 flex items-center justify-center">
+            <img class="w-[170%] max-w-none absolute md:top-1/2 md:left-[52%] md:transform md:-translate-x-[55%] md:-translate-y-1/2 hidden md:block"
+                 src="./Images/modern-house.png"
+                 alt="">
         </div>
-    </div>
+    </section>
+
+    <section id="about" class="h-[90vh] w-11/12 max-w-[1920px] border-[#AC602A] flex flex-col justify-center items-center rounded-[120px] lg:border-2 md:border-0 sm:border-0 sm:gap-8 mx-auto mt-[5em]">
+
+        <div id="top" class="w-[55%] h-auto flex flex-col items-center justify-center gap-3 text-center">
+            <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold text-[#043137]">
+                About Us
+            </h1>
+            <p class="text-lg md:text-xl text-[#787676]3">
+                At Neighborly, we prioritize safety and connectivity among our residents. Founded in 2025, our community has grown into a vibrant neighborhood where everyone can thrive and engage with one another.
+            </p>
+        </div>
+
+        <div id="bot" class="w-full max-w-[1000px] h-auto lg:flex lg:flex-row gap-4 mt-8 sm:flex sm:flex-col sm:items-center">
+            <div id="leftdiv" class="flex flex-col w-full lg:w-1/2 sm:w-[90%] gap-4">
+
+                <div class="h-auto text-center lg:text-left">
+                    <h1 class="text-2xl md:text-3xl lg:text-[35px] font-bold text-[#AC602A]">15 FAMILIES</h1>
+                    <p class="text-base md:text-lg text-[#787676]">With 15 families, we have fostered a strong sense of community and collaboration, sense of community and collaboration</p>
+                </div>
+
+                <div class="h-auto text-center lg:text-left">
+                    <h1 class="text-2xl md:text-3xl lg:text-[35px] font-bold text-[#AC602A]">5 CORE VALUES</h1>
+                    <p class="text-base md:text-lg text-[#787676]">Our core values include Safety, Connectivity, Community Engagement, Transparency, and Sustainability.</p>
+                </div>
+            </div>
+
+            <div id="rightdiv" class="flex flex-col w-full lg:w-1/2 sm:w-[90%] gap-4">
+                <div class="h-auto text-center lg:text-left">
+                    <h1 class="text-2xl md:text-3xl lg:text-[35px] font-bold text-[#AC602A]">4 TEAM MEMBERS</h1>
+                    <p class="text-base md:text-lg text-[#787676]">Our dedicated team includes professionals from the HOA, security, and maintenance, all committed to enhancing your living experience.</p>
+                </div>
+
+                <div class="h-auto text-center lg:text-left">
+                    <h1 class="text-2xl md:text-3xl lg:text-[35px] font-bold text-[#AC602A]">15 INITIATIVES</h1>
+                    <p class="text-base md:text-lg text-[#787676]">Over the years, we have implemented numerous initiatives to improve the quality of life for our residents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Facilities" class="min-h-screen w-11/12 max-w-[1920px] border-[#AC602A] flex flex-col justify-center items-center px-4 py-20">
+        <div id="topfac" class="w-[55%] h-auto flex flex-col items-center justify-center gap-3 text-center">
+            <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold text-[#043137]">
+                Explore Our Facilities
+            </h1>
+            <p class="text-lg md:text-xl text-[#787676]">
+                At Neighborly, we prioritize safety and connectivity among our residents. Founded in 2025, our community has grown into a vibrant neighborhood where everyone can thrive and engage with one another.
+            </p>
+        </div>
+
+        <div id="botfac" class="w-full max-w-[1200px] h-auto lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-8  mt-8 sm:flex sm:flex-col sm:items-center sm:gap-10">
+            <div id="left" class="flex flex-col gap-4 mb-10">
+                <img class="rounded-[50px] lg:max-w-[600px] md:w-auto sm:w-auto" src="./Images/facimg1.png" alt="">
+                <h1 class="text-2xl md:text-3xl lg:text-[35px] font-bold text-[#AC602A]">Community Park</h1>
+
+                <p class="text-base md:text-lg text-[#787676]">Our community park offers a serene environment with walking trails, playgrounds, and picnic areas. It’s the perfect place for families to enjoy outdoor activities and connect with nature.</p>
+
+                <div>
+                    <a href="#" class="text-white px-5 py-1.5 rounded-full bg-[#AC602A] sm:px-4 sm:py-1 md:px-6 md:py-2 transition ">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+
+            <div id="middle" class="flex flex-col gap-4 mb-10 ">
+                <img class="rounded-[50px] lg:max-w-[600px]" src="./Images/facimg2.png" alt="">
+                <h1 class="text-2xl md:text-3xl lg:text-[35px] font-bold text-[#AC602A]">Clubhouse</h1>
+
+                <p class="text-base md:text-lg text-[#787676]">The clubhouse is the heart of our community, hosting social events and gatherings. It's a place where residents come together to celebrate and build lasting friendships..</p>
+
+                <div>
+                    <a href="#" class="text-white px-5 py-1.5 rounded-full bg-[#AC602A] sm:px-4 sm:py-1 md:px-6 md:py-2 transition sm:mb-6">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+
+            <div id="right" class="flex flex-col gap-4 mb-10">
+                <img class="rounded-[50px] lg:max-w-[600px]" src="./Images/facimg3.png" alt="">
+                <h1 class="text-2xl md:text-3xl lg:text-[35px] font-bold text-[#AC602A]">Fitness Center</h1>
+
+                <p class="text-base md:text-lg text-[#787676]">Our state-of-the-art fitness center is equipped with modern facilities to support your health and wellness goals. Stay fit and healthy with us..</p>
+
+                <div>
+                    <a href="#" class="text-white px-5 py-1.5 rounded-full bg-[#AC602A] sm:px-4 sm:py-1 md:px-6 md:py-2 transition">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="events-section" class="min-h-[90vh] w-full max-w-[1920px] bg-[#ffff] flex flex-col sm:flex-col md:flex-row gap-10 sm:gap-8 items-center justify-center px-4 py-20">
+        <div id="eveleftdiv" class="w-full md:w-[50%] flex flex-col items-center justify-center gap-[5.5em]">
+            <div class="w-[60%] sm:w-full h-auto flex flex-col justify-center items-center text-center gap-4">
+                <h1 class="text-2xl md:text-3xl lg:text-[50px] font-bold text-[#043137]">Latest News & Events</h1>
+                <p class="text-lg md:text-xl text-[#787676]">Discover the latest community news and upcoming events to keep you connected and involved in our vibrant neighborhood.</p>
+            </div>
+
+            <div class="w-full h-auto sm:h-auto bg-[#F7EFEA] flex flex-col sm:flex-col md:flex-row gap-4 items-center justify-around rounded-lg p-6">
+                <div class="w-full md:w-[50%] p-5">
+                    <img class="rounded-lg lg:max-w-[420px]" src="./Images/facimg2.png" alt="">
+                </div>
+                <div class="flex flex-col gap-4 text-center md:text-left">
+                    <h1 class="text-2xl md:text-3xl lg:text-[40px] font-bold text-[#043137]">Scheduled Maintenance</h1>
+                    <p class="text-lg md:text-xl text-[#787676]">Water system upgrades will take place; expect temporary disruptions. Please plan accordingly and contact maintenance for concerns.</p>
+                    <a href="#" class="text-[#AC602A] font-semibold text-[20px]">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="everightdiv" class="w-full md:w-[40%] flex flex-col items-center justify-center gap-10">
+            <div id="top" class="w-full h-auto sm:h-auto bg-[#F7EFEA] flex flex-col rounded-lg justify-center p-8 gap-4">
+                <h1 class="text-2xl md:text-3xl lg:text-[30px] font-bold text-[#043137]">Meeting on March 15, 2025</h1>
+                <p class="text-lg md:text-xl text-[#787676]">Homeowners are invited to the monthly HOA meeting at the clubhouse at 6:00 PM to discuss upcoming projects and community concerns.</p>
+            </div>
+            <div id="mid" class="w-full h-auto sm:h-auto bg-[#F7EFEA] rounded-lg flex flex-col p-8 gap-4">
+                <h1 class="text-2xl md:text-3xl lg:text-[30px] font-bold text-[#043137]">Community Clean-Up Drive</h1>
+                <p class="text-lg md:text-xl text-[#787676]">Join us for the upcoming clean-up drive. Together, we can keep our neighborhood clean and sustainable for all residents.</p>
+            </div>
+            <div id="bot" class="w-full h-auto sm:h-auto bg-[#F7EFEA] rounded-lg flex flex-col p-8 gap-4">
+                <h1 class="text-2xl md:text-3xl lg:text-[30px] font-bold text-[#043137]">Renovation Completed</h1>
+                <p class="text-lg md:text-xl text-[#787676]">We are excited to announce that the renovations to the community center have been completed. Check it out soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-location" class="w-screen h-[90vh] flex flex-col items-center justify-center mt-[10em] px-4 py-20">
+
+        <!-- Contact Information Section -->
+        <div id="contactinfo" class="flex flex-col mb-10 w-full flex items-center justify-center gap-10">
+            <div class="flex flex-col items-center justify-center gap-10">
+                <h1 class="text-2xl md:text-3xl lg:text-[55px] font-bold text-[#043137]">Contact Information</h1>
+                <p class="text-lg md:text-xl text-[#787676] text-center">Reach out to our dedicated teams for any inquiries or assistance.</p>
+
+                <div class="flex flex-col sm:flex-row gap-10 sm:gap-20 text-center sm:text-left">
+                    <p><i class="fas fa-envelope"></i> Neighborly@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +63995684154</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Cebu City, 6000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Map Section -->
+        <div class="w-[90%] flex justify-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5717.309075708949!2d123.92468597908078!3d10.346282200897026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a998f5d0573d5b%3A0x45e96bb5678e2682!2s697%20M.%20L.%20Quezon%20Ave%2C%20Mandaue%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1739159535814!5m2!1sen!2sph" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="w-full h-auto mt-[10em] bg-[#ffff] flex flex-col sm:flex-row justify-center gap-10 sm:gap-20 sm:w-aduto border-b-2 border-gray-300 px-4 py-10">
+
+        <!-- Left Section: Logo and Social Icons -->
+        <div class="flex flex-col items-center sm:items-start m-5 sm:m-20">
+            <img src="./Images/sub-logo.svg" alt="Neighborly Logo" class="logo-image w-[150px] sm:w-[200px]">
+            <p class="text-center sm:text-left mt-4">
+                Strengthening Connections, Bringing Your Community Closer
+            </p>
+            <div class="social-icons flex flex-row gap-5 w-[40px] mt-4 justify-center sm:justify-start">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <!-- Middle Section: Community Links -->
+        <div class="flex flex-col gap-4 m-5 sm:m-20 text-center sm:text-left">
+            <h3 class="text-2xl md:text-3xl lg:text-[25px] font-bold text-[#043137]">Community</h3>
+            <a href="#home" class="text-[#787676] ">Home</a>
+            <a href="#about" class="text-[#787676]">About Us</a>
+            <a href="#Facilities" class="text-[#787676]">Facilities</a>
+            <a href="#events-section" class="text-[#787676]">NewsFeed</a>
+        </div>
+
+        <!-- Right Section: Contact Information -->
+        <div class="flex flex-col gap-4 m-5 sm:m-20 text-center sm:text-left">
+            <h3 class="text-2xl md:text-3xl lg:text-[25px] font-bold text-[#043137]">Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> Neighborly@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +63995684154</p>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Cebu City, 6000</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <div id="foot" class="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-10 p-5">
+            <p class="text-center sm:text-left">Copyright © 2022 Neighborly</p>
+            <p class="text-center sm:text-left">All Rights Reserved | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+
 </body>
 </html>

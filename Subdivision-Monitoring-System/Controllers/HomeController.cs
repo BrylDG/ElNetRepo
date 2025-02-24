@@ -27,6 +27,14 @@ namespace Subdivision_Monitoring_System.Controllers
             ViewData["HideLayout"] = true;
             return View();
         }
+        public IActionResult DashboardLayout()
+        {
+            return View();
+        }
+        public IActionResult UserProfile()
+        {
+            return View();
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

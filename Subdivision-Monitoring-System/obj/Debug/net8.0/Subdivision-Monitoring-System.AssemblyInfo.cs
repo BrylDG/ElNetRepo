@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Subdivision-Monitoring-System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44d378d9b4149499f32d77d134fed793761b3bb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1a620002da438496873bbbc339345348c02764d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Subdivision-Monitoring-System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Subdivision-Monitoring-System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

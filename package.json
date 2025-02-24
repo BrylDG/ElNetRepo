@@ -1,0 +1,29 @@
+{
+  "name": "subdivision-monitoring-system",
+  "version": "1.0.0",
+  "description": "This repository is for our ElNet group project, feel free to judge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrylDG/ElNetRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BrylDG/ElNetRepo/issues"
+  },
+  "homepage": "https://github.com/BrylDG/ElNetRepo#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.8",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.8"
+  }
+}
